@@ -1,0 +1,23 @@
+/* line 1, contact.scss */
+.contact-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 130px;
+}
+/* line 5, contact.scss */
+.contact-container .icon-img {
+  width: 40px;
+  padding-bottom: 10px;
+}
+/* line 9, contact.scss */
+.contact-container .address-txt {
+  color: #0030A5;
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+/* line 16, contact.scss */
+.footer-icon {
+  width: 30px;
+}
