@@ -18,6 +18,36 @@
 }
 
 /* line 16, contact.scss */
-.footer-icon {
-  width: 30px;
+.contact-footer {
+  margin-top: 100px;
+}
+
+/* line 19, contact.scss */
+.footer-icon-list {
+  display: inline-block;
+  padding-left: 40px;
+  cursor: pointer;
+}
+/* line 23, contact.scss */
+.footer-icon-list .fa {
+  font-size: 28px;
+  color: #0030A5;
+}
+/* line 27, contact.scss */
+.footer-icon-list .copyright {
+  font-size: 18px;
+  color: #0030A5;
+  text-align: center;
+}
+
+/* line 33, contact.scss */
+.icon-container {
+  width: 42%;
+  float: left;
+}
+
+/* line 38, contact.scss */
+.copyright-container {
+  width: 58%;
+  float: right;
 }

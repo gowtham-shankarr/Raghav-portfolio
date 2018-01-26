@@ -1,0 +1,92 @@
+/* line 1, work.scss */
+.work-container {
+  margin: 140px auto;
+}
+
+/* line 4, work.scss */
+.work-thumbnail-block {
+  max-width: 1180px;
+  margin-left: 140px;
+  margin-right: 140px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+/* line 12, work.scss */
+.work-thumbnail {
+  margin-right: 30px;
+}
+/* line 14, work.scss */
+.work-thumbnail:hover {
+  opacity: 0.5;
+}
+
+/* line 18, work.scss */
+.work-image {
+  padding-bottom: 40px;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+/* line 27, work.scss */
+.work-content-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 31, work.scss */
+.work-content-block .work-title {
+  color: #000;
+  font-size: 16px;
+}
+
+/* line 38, work.scss */
+.work-block-container {
+  position: relative;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* line 44, work.scss */
+.work-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+/* line 53, work.scss */
+.text-middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* line 64, work.scss */
+.work-block-container:hover .work-image {
+  opacity: 0.3;
+}
+
+/* line 68, work.scss */
+.work-block-container:hover .text-middle {
+  opacity: 1;
+}
+
+/* line 72, work.scss */
+.heading-text {
+  color: #000;
+  font-size: 16px;
+  padding: 16px 32px;
+}

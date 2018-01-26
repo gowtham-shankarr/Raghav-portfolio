@@ -29,6 +29,10 @@ img {
     max-width: 100%;
 }
 
+p::selection {
+    background: rgba(0, 38, 133, 0.8);
+    color: #fff;
+}
 .txt-container {
     max-width: 650px;
     padding-top: 10%;
@@ -39,6 +43,12 @@ img {
         font-size: 16px;
         line-height: 30px;
         color: #fff;
+    }
+    .signature{
+     text-align: right;
+     position: relative;
+     right: 30px;
+     top: 20px;
     }
 }
 
