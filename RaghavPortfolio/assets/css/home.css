@@ -38,7 +38,7 @@ p::selection {
   color: #fff;
 }
 
-/* line 36, home.scss */
+/* line 37, home.scss */
 .txt-container {
   max-width: 650px;
   padding-top: 10%;
@@ -46,13 +46,13 @@ p::selection {
   margin-left: 100px;
   margin-right: 100px;
 }
-/* line 42, home.scss */
+/* line 43, home.scss */
 .txt-container p {
   font-size: 16px;
   line-height: 30px;
   color: #fff;
 }
-/* line 47, home.scss */
+/* line 48, home.scss */
 .txt-container .signature {
   text-align: right;
   position: relative;
@@ -60,13 +60,13 @@ p::selection {
   top: 20px;
 }
 
-/* line 55, home.scss */
+/* line 56, home.scss */
 .container-opacity {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 25px;
 }
 
-/* line 60, home.scss */
+/* line 61, home.scss */
 header {
   width: 100%;
   height: 76px;
@@ -75,7 +75,7 @@ header {
   left: 0;
   z-index: 100;
 }
-/* line 67, home.scss */
+/* line 68, home.scss */
 header #logo {
   width: 200px;
   height: 50px;
@@ -85,68 +85,75 @@ header #logo {
   display: block;
 }
 
-/* line 77, home.scss */
+/* line 78, home.scss */
 .header-navbar {
   float: right;
   padding: 20px;
 }
-/* line 80, home.scss */
+/* line 81, home.scss */
 .header-navbar .header-menuIcon {
   width: 40px;
   height: 40px;
   display: hidden;
   background: #4c8fec url("../images/menu-icon.png") center;
 }
-/* line 85, home.scss */
+/* line 86, home.scss */
 .header-navbar .header-menuIcon .header-navlink {
   color: #fff;
   text-decoration: none;
 }
-/* line 88, home.scss */
+/* line 89, home.scss */
 .header-navbar .header-menuIcon .header-navlink:hover {
   color: #f00;
 }
-/* line 92, home.scss */
+/* line 93, home.scss */
 .header-navbar .header-menuIcon .header-navActive {
   color: #f00;
   text-decoration: none;
 }
 
-/* line 99, home.scss */
-.header-navbar .header-ulList, .navbar2-ulList .header-ulList {
+/* line 102, home.scss */
+.header-navbar .header-ulList,
+.navbar2-ulList .header-ulList {
   list-style-type: none;
 }
-/* line 102, home.scss */
-.header-navbar .header-navList, .header-navbar .navbar2-navList, .navbar2-ulList .header-navList, .navbar2-ulList .navbar2-navList {
+/* line 106, home.scss */
+.header-navbar .header-navList,
+.header-navbar .navbar2-navList,
+.navbar2-ulList .header-navList,
+.navbar2-ulList .navbar2-navList {
   display: inline-block;
   padding: 10px 20px;
 }
-/* line 106, home.scss */
-.header-navbar .header-navlink, .navbar2-ulList .header-navlink {
+/* line 110, home.scss */
+.header-navbar .header-navlink,
+.navbar2-ulList .header-navlink {
   text-decoration: none;
   font-size: 16px;
   color: #fff;
 }
-/* line 110, home.scss */
-.header-navbar .header-navlink:hover, .navbar2-ulList .header-navlink:hover {
+/* line 114, home.scss */
+.header-navbar .header-navlink:hover,
+.navbar2-ulList .header-navlink:hover {
   color: #424DF6;
   text-decoration: underline #424DF6;
 }
-/* line 115, home.scss */
-.header-navbar .header-navActive, .navbar2-ulList .header-navActive {
+/* line 119, home.scss */
+.header-navbar .header-navActive,
+.navbar2-ulList .header-navActive {
   color: #f00;
   text-decoration: none;
 }
 
 /* Media Queries in Mobile and Tablet Responsive*/
 @media only screen and (max-width: 780px) {
-  /* line 124, home.scss */
+  /* line 129, home.scss */
   .header-navbar {
     display: none;
   }
 }
 @media only screen and (max-width: 500px) {
-  /* line 130, home.scss */
+  /* line 135, home.scss */
   .txt-container {
     margin-left: 30px;
     margin-right: 30px;

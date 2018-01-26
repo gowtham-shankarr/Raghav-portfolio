@@ -38,7 +38,7 @@ p::selection {
   color: #fff;
 }
 
-/* line 36, home.scss */
+/* line 37, home.scss */
 .txt-container {
   max-width: 650px;
   padding-top: 10%;
@@ -46,13 +46,13 @@ p::selection {
   margin-left: 100px;
   margin-right: 100px;
 }
-/* line 42, home.scss */
+/* line 43, home.scss */
 .txt-container p {
   font-size: 16px;
   line-height: 30px;
   color: #fff;
 }
-/* line 47, home.scss */
+/* line 48, home.scss */
 .txt-container .signature {
   text-align: right;
   position: relative;
@@ -60,13 +60,13 @@ p::selection {
   top: 20px;
 }
 
-/* line 55, home.scss */
+/* line 56, home.scss */
 .container-opacity {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 25px;
 }
 
-/* line 60, home.scss */
+/* line 61, home.scss */
 header {
   width: 100%;
   height: 76px;
@@ -75,7 +75,7 @@ header {
   left: 0;
   z-index: 100;
 }
-/* line 67, home.scss */
+/* line 68, home.scss */
 header #logo {
   width: 200px;
   height: 50px;
@@ -85,68 +85,75 @@ header #logo {
   display: block;
 }
 
-/* line 77, home.scss */
+/* line 78, home.scss */
 .header-navbar {
   float: right;
   padding: 20px;
 }
-/* line 80, home.scss */
+/* line 81, home.scss */
 .header-navbar .header-menuIcon {
   width: 40px;
   height: 40px;
   display: hidden;
   background: #4c8fec url("../images/menu-icon.png") center;
 }
-/* line 85, home.scss */
+/* line 86, home.scss */
 .header-navbar .header-menuIcon .header-navlink {
   color: #fff;
   text-decoration: none;
 }
-/* line 88, home.scss */
+/* line 89, home.scss */
 .header-navbar .header-menuIcon .header-navlink:hover {
   color: #f00;
 }
-/* line 92, home.scss */
+/* line 93, home.scss */
 .header-navbar .header-menuIcon .header-navActive {
   color: #f00;
   text-decoration: none;
 }
 
-/* line 99, home.scss */
-.header-navbar .header-ulList, .navbar2-ulList .header-ulList {
+/* line 102, home.scss */
+.header-navbar .header-ulList,
+.navbar2-ulList .header-ulList {
   list-style-type: none;
 }
-/* line 102, home.scss */
-.header-navbar .header-navList, .header-navbar .navbar2-navList, .navbar2-ulList .header-navList, .navbar2-ulList .navbar2-navList {
+/* line 106, home.scss */
+.header-navbar .header-navList,
+.header-navbar .navbar2-navList,
+.navbar2-ulList .header-navList,
+.navbar2-ulList .navbar2-navList {
   display: inline-block;
   padding: 10px 20px;
 }
-/* line 106, home.scss */
-.header-navbar .header-navlink, .navbar2-ulList .header-navlink {
+/* line 110, home.scss */
+.header-navbar .header-navlink,
+.navbar2-ulList .header-navlink {
   text-decoration: none;
   font-size: 16px;
   color: #fff;
 }
-/* line 110, home.scss */
-.header-navbar .header-navlink:hover, .navbar2-ulList .header-navlink:hover {
+/* line 114, home.scss */
+.header-navbar .header-navlink:hover,
+.navbar2-ulList .header-navlink:hover {
   color: #424DF6;
   text-decoration: underline #424DF6;
 }
-/* line 115, home.scss */
-.header-navbar .header-navActive, .navbar2-ulList .header-navActive {
+/* line 119, home.scss */
+.header-navbar .header-navActive,
+.navbar2-ulList .header-navActive {
   color: #f00;
   text-decoration: none;
 }
 
 /* Media Queries in Mobile and Tablet Responsive*/
 @media only screen and (max-width: 780px) {
-  /* line 124, home.scss */
+  /* line 129, home.scss */
   .header-navbar {
     display: none;
   }
 }
 @media only screen and (max-width: 500px) {
-  /* line 130, home.scss */
+  /* line 135, home.scss */
   .txt-container {
     margin-left: 30px;
     margin-right: 30px;
@@ -210,7 +217,7 @@ header #logo {
   text-decoration: none;
 }
 
-/* line 7, about.scss */
+/* line 8, about.scss */
 #logo1 {
   width: 200px;
   height: 50px;
@@ -220,13 +227,13 @@ header #logo {
   background: url(../images/logo4.png) no-repeat center;
 }
 
-/* line 16, about.scss */
+/* line 17, about.scss */
 .about-container {
   width: 100%;
   padding-top: 100px;
 }
 
-/* line 20, about.scss */
+/* line 22, about.scss */
 .about-wrap {
   width: 70%;
   margin-left: 60px;
@@ -236,7 +243,7 @@ header #logo {
   margin-bottom: 30px;
 }
 
-/* line 28, about.scss */
+/* line 31, about.scss */
 .about-image-container {
   width: 30%;
   right: 0;
@@ -245,7 +252,7 @@ header #logo {
   position: fixed;
 }
 
-/* line 35, about.scss */
+/* line 39, about.scss */
 .about-image {
   width: 100%;
   max-width: 100%;
@@ -259,7 +266,7 @@ header #logo {
   background: url("../images/img-background.png") no-repeat;
 }
 
-/* line 47, about.scss */
+/* line 52, about.scss */
 .about-txt {
   font-size: 16px;
   color: #0030A5;
@@ -287,36 +294,36 @@ header #logo {
   padding-bottom: 20px;
 }
 
-/* line 16, contact.scss */
+/* line 17, contact.scss */
 .contact-footer {
   margin-top: 100px;
 }
 
-/* line 19, contact.scss */
+/* line 21, contact.scss */
 .footer-icon-list {
   display: inline-block;
   padding-left: 40px;
   cursor: pointer;
 }
-/* line 23, contact.scss */
+/* line 25, contact.scss */
 .footer-icon-list .fa {
   font-size: 28px;
   color: #0030A5;
 }
-/* line 27, contact.scss */
+/* line 29, contact.scss */
 .footer-icon-list .copyright {
   font-size: 18px;
   color: #0030A5;
   text-align: center;
 }
 
-/* line 33, contact.scss */
+/* line 36, contact.scss */
 .icon-container {
   width: 42%;
   float: left;
 }
 
-/* line 38, contact.scss */
+/* line 41, contact.scss */
 .copyright-container {
   width: 58%;
   float: right;
@@ -327,7 +334,7 @@ header #logo {
   margin: 140px auto;
 }
 
-/* line 4, work.scss */
+/* line 5, work.scss */
 .work-thumbnail-block {
   max-width: 1180px;
   margin-left: 140px;
@@ -337,16 +344,16 @@ header #logo {
   flex-direction: row;
 }
 
-/* line 12, work.scss */
+/* line 14, work.scss */
 .work-thumbnail {
   margin-right: 30px;
 }
-/* line 14, work.scss */
+/* line 16, work.scss */
 .work-thumbnail:hover {
   opacity: 0.5;
 }
 
-/* line 18, work.scss */
+/* line 21, work.scss */
 .work-image {
   padding-bottom: 40px;
   opacity: 1;
@@ -357,26 +364,26 @@ header #logo {
   backface-visibility: hidden;
 }
 
-/* line 27, work.scss */
+/* line 31, work.scss */
 .work-content-block {
   position: absolute;
   top: 0;
   left: 0;
 }
-/* line 31, work.scss */
+/* line 35, work.scss */
 .work-content-block .work-title {
   color: #000;
   font-size: 16px;
 }
 
-/* line 38, work.scss */
+/* line 40, work.scss */
 .work-block-container {
   position: relative;
   margin-left: 20px;
   cursor: pointer;
 }
 
-/* line 44, work.scss */
+/* line 46, work.scss */
 .work-image {
   opacity: 1;
   display: block;
@@ -386,7 +393,7 @@ header #logo {
   backface-visibility: hidden;
 }
 
-/* line 53, work.scss */
+/* line 55, work.scss */
 .text-middle {
   transition: .5s ease;
   opacity: 0;
@@ -398,17 +405,17 @@ header #logo {
   text-align: center;
 }
 
-/* line 64, work.scss */
+/* line 66, work.scss */
 .work-block-container:hover .work-image {
   opacity: 0.3;
 }
 
-/* line 68, work.scss */
+/* line 70, work.scss */
 .work-block-container:hover .text-middle {
   opacity: 1;
 }
 
-/* line 72, work.scss */
+/* line 74, work.scss */
 .heading-text {
   color: #000;
   font-size: 16px;

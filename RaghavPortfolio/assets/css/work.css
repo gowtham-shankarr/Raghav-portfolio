@@ -3,7 +3,7 @@
   margin: 140px auto;
 }
 
-/* line 4, work.scss */
+/* line 5, work.scss */
 .work-thumbnail-block {
   max-width: 1180px;
   margin-left: 140px;
@@ -13,16 +13,16 @@
   flex-direction: row;
 }
 
-/* line 12, work.scss */
+/* line 14, work.scss */
 .work-thumbnail {
   margin-right: 30px;
 }
-/* line 14, work.scss */
+/* line 16, work.scss */
 .work-thumbnail:hover {
   opacity: 0.5;
 }
 
-/* line 18, work.scss */
+/* line 21, work.scss */
 .work-image {
   padding-bottom: 40px;
   opacity: 1;
@@ -33,26 +33,26 @@
   backface-visibility: hidden;
 }
 
-/* line 27, work.scss */
+/* line 31, work.scss */
 .work-content-block {
   position: absolute;
   top: 0;
   left: 0;
 }
-/* line 31, work.scss */
+/* line 35, work.scss */
 .work-content-block .work-title {
   color: #000;
   font-size: 16px;
 }
 
-/* line 38, work.scss */
+/* line 40, work.scss */
 .work-block-container {
   position: relative;
   margin-left: 20px;
   cursor: pointer;
 }
 
-/* line 44, work.scss */
+/* line 46, work.scss */
 .work-image {
   opacity: 1;
   display: block;
@@ -62,7 +62,7 @@
   backface-visibility: hidden;
 }
 
-/* line 53, work.scss */
+/* line 55, work.scss */
 .text-middle {
   transition: .5s ease;
   opacity: 0;
@@ -74,17 +74,17 @@
   text-align: center;
 }
 
-/* line 64, work.scss */
+/* line 66, work.scss */
 .work-block-container:hover .work-image {
   opacity: 0.3;
 }
 
-/* line 68, work.scss */
+/* line 70, work.scss */
 .work-block-container:hover .text-middle {
   opacity: 1;
 }
 
-/* line 72, work.scss */
+/* line 74, work.scss */
 .heading-text {
   color: #000;
   font-size: 16px;

@@ -6,7 +6,7 @@
   text-decoration: none;
 }
 
-/* line 7, about.scss */
+/* line 8, about.scss */
 #logo1 {
   width: 200px;
   height: 50px;
@@ -16,13 +16,13 @@
   background: url(../images/logo4.png) no-repeat center;
 }
 
-/* line 16, about.scss */
+/* line 17, about.scss */
 .about-container {
   width: 100%;
   padding-top: 100px;
 }
 
-/* line 20, about.scss */
+/* line 22, about.scss */
 .about-wrap {
   width: 70%;
   margin-left: 60px;
@@ -32,7 +32,7 @@
   margin-bottom: 30px;
 }
 
-/* line 28, about.scss */
+/* line 31, about.scss */
 .about-image-container {
   width: 30%;
   right: 0;
@@ -41,7 +41,7 @@
   position: fixed;
 }
 
-/* line 35, about.scss */
+/* line 39, about.scss */
 .about-image {
   width: 100%;
   max-width: 100%;
@@ -55,7 +55,7 @@
   background: url("../images/img-background.png") no-repeat;
 }
 
-/* line 47, about.scss */
+/* line 52, about.scss */
 .about-txt {
   font-size: 16px;
   color: #0030A5;

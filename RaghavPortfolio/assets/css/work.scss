@@ -1,40 +1,42 @@
-.work-container{
+.work-container {
     margin: 140px auto;
 }
-.work-thumbnail-block{
-	 max-width: 1180px;
+
+.work-thumbnail-block {
+    max-width: 1180px;
     margin-left: 140px;
     margin-right: 140px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
+
 .work-thumbnail {
     margin-right: 30px;
-      &:hover{
-      	 opacity: 0.5;
-      }
+    &:hover {
+        opacity: 0.5;
+    }
 }
-.work-image{
-	padding-bottom: 40px;
-	opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
+
+.work-image {
+    padding-bottom: 40px;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
-.work-content-block{
-	position: absolute;
+
+.work-content-block {
+    position: absolute;
     top: 0;
     left: 0;
-	     .work-title{
-	    	 color: #000;
-			 font-size: 16px;
-	    }
+    .work-title {
+        color: #000;
+        font-size: 16px;
+    }
 }
-
-
 .work-block-container {
     position: relative;
     margin-left: 20px;
@@ -42,35 +44,35 @@
 }
 
 .work-image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 .text-middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .work-block-container:hover .work-image {
-  opacity: 0.3;
+    opacity: 0.3;
 }
 
 .work-block-container:hover .text-middle {
-  opacity: 1;
+    opacity: 1;
 }
 
 .heading-text {
-  color: #000;
-  font-size: 16px;
-  padding: 16px 32px;
+    color: #000;
+    font-size: 16px;
+    padding: 16px 32px;
 }
